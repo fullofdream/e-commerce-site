@@ -1,9 +1,9 @@
 :root {
- --mainBlue:#2a2a72;
- --lightBlue:#009ffd;
+ --mainBlue:#23236b;
+ --lightBlue:#7fc6f0;
  --mainWhite:#f3f3f3;
  --mainDark:#232528;
- --mainYellow:#ffa400;
+ --mainYellow:#faa70d;
 }
 body{
   font-family:"Anton", sans-serif !important;
@@ -33,6 +33,7 @@ body{
   background:var(--mainDark) !important;
   color:var(--mainWhite) !important;
 }
+
 .cart-icon{
   cursor:pointer;
   font-size:1.2rem;

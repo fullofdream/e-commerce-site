@@ -66,6 +66,7 @@ class ProductProvider extends Component {
             return { modalOpen: false };
         });
     };
+
     increment = id => {
         let tempCart = [...this.state.cart];
         const selectedProduct = tempCart.find(item => {
@@ -81,6 +82,7 @@ class ProductProvider extends Component {
             };
         }, this.addTotals);
     };
+    
     decrement = id => {
         let tempCart = [...this.state.cart];
         const selectedProduct = tempCart.find(item => {

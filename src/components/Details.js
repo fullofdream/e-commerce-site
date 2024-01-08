@@ -17,7 +17,7 @@ export default class Details extends Component {
                                     <h1>{title}</h1>
                                 </div>
                             </div>
-                            {/*end of title*/}
+                           
                             {/*product info*/}
                             <div className="row">
                                 <div className="col-10 mx-auto col-md-6 my-3 text-capitalize">
@@ -40,7 +40,7 @@ export default class Details extends Component {
                                     <p className="text-muted lead">
                                         {info}
                                     </p>
-                                    {/*buttons*/}
+                                   
                                     <div>
                                        <Link to="/">
                                            <ButtonContainer>
